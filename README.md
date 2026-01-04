@@ -2,11 +2,11 @@
 Creating visuals for Anscombe's Quartet
 
 ## Overview
-This project creates four charts of Anscombe's Quartet using Python in a Jupyter notebook. The data points are sourced from [Wikipedia](https://en.wikipedia.org/wiki/Anscombe%27s_quartet).
+This project creates four separate charts of Anscombe's Quartet using Python in a Jupyter notebook. The data points are sourced from [Wikipedia](https://en.wikipedia.org/wiki/Anscombe%27s_quartet).
 
 ## Features
 - Four datasets (I, II, III, IV), each in its own pandas DataFrame
-- Horizontal layout optimized for 8.5x11 paper (landscape orientation)
+- Each dataset saved as a separate PNG file (8.5x8.5 inches)
 - Minimalist design with no axis labels
 - Light grey linear regression lines
 - Blue data points
@@ -23,7 +23,11 @@ This project creates four charts of Anscombe's Quartet using Python in a Jupyter
    jupyter notebook anscombes_quartet.ipynb
    ```
 
-3. The notebook will generate `anscombes_quartet.png` in the current directory.
+3. The notebook will generate four PNG files in the current directory:
+   - `anscombes_quartet_I.png`
+   - `anscombes_quartet_II.png`
+   - `anscombes_quartet_III.png`
+   - `anscombes_quartet_IV.png`
 
 ## Requirements
 - Python 3.x
