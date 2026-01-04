@@ -6,10 +6,10 @@ This project creates four separate charts of Anscombe's Quartet using Python in 
 
 ## Features
 - Four datasets (I, II, III, IV), each in its own pandas DataFrame
-- Each dataset saved as a separate PNG file (8.5x8.5 inches)
-- Minimalist design with no axis labels
+- Each dataset saved as a separate PNG file (10x8 inches)
+- Minimalist design with tick marks but no axis labels
 - Light grey linear regression lines
-- Blue data points
+- Blue data points (enhanced visibility)
 - High-resolution PNG output (300 DPI)
 
 ## Usage
